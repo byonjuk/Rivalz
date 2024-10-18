@@ -18,3 +18,6 @@ rivalz update-version
 rivalz run
 ```
 치면 될 거에용.
+
+## 링크
+[대쉬보드 보는 곳](https://rivalz.ai/dashboard)
