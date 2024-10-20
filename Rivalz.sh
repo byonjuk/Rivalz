@@ -58,6 +58,8 @@ npm -v
 
 rivalz -h
 
+source ~/.bashrc
+
 
 echo && echo -e "${CYAN}이 다음 작업부턴 수동으로 하셔야 합니다.${NC}
 ${YELLOW} 1. 먼저 ${RED}'screen -S rivalz'${NC}를 입력해 주세요.${NC}
@@ -124,6 +126,13 @@ for file in "${FILES[@]}"; do
     echo -e "${RED}File $file not found. Skipping.${NC}"
   fi
 done
+source ~/.bashrc
+
+echo -e "${BOLD}${MAGENTA}님의 노드에 깔려있던 라이벌즈가 완벽하게 지워졌습니다.${NC} ${BOLD}${RED}'rivalz: command not found'${NC}${BOLD}${MAGENTA}라고 뜨면 지워진 거에요.${NC}"
+rivalz -h
+echo && echo -e "${BOLD}${YELLOW}★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆
+죄송한데 제가 위에 별 이모티콘 넣었는데 별 제대로 뜨나요? 뜨면 질문방으로 별 이모티콘 뜬다고 말해주세용
+★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆${NC}" && echo
 }
 # 메인 메뉴
 echo && echo -e "${BOLD}${RED}Rivalz Node 설치 명령어 ${NC} by 비욘세제발죽어
@@ -131,7 +140,7 @@ ${CYAN}원하는 거 고르시고 실행하시고 그러세효. ${NC}
  ———————————————————————
  ${GREEN} 1. Rivalz Node 설치하기 ${NC}
  ${GREEN} 2. Rivalz Node 업데이트하기 ${NC}
- ${GREEN} 3. Rivalz Node 지우...ㄹ 수는 있는데. 수동으로 하시는 걸 추천. ㅎㅎ${NC}
+ ${GREEN} 3. Rivalz Node 지우기 ${NC}
  ———————————————————————" && echo
 
 # 사용자 입력 대기
