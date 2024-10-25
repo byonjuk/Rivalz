@@ -44,14 +44,13 @@ rivalz run
 를 입력해서 요구하는 정보들을 입력해 주세요. 
 
 아마
-1. 코어 (1개만 하셈)
-2. RAM (1기가만 하셈 ㅎㅎ)
-3. 디스크타입 선택 (sda 3으로)
-4. 용량 설정 (적당히, 풀로 박지 마셈.)
+1. 디스크타입 선택 (sda 3으로)
+2. 용량 설정 (적당히, 풀로 박지 마셈.)
 하면 끝~!
 
 [대쉬보드 보는 곳](https://rivalz.ai/dashboard)으로 들어가서 잘 돌아가는지도 체크하세용 ㅎㅎ 
 
+## 삭제
 ```bash
 [ -f "Rivalz.sh" ] && rm Rivalz.sh; wget -q https://raw.githubusercontent.com/byonjuk/Rivalz/refs/heads/main/Rivalz.sh && chmod +x Rivalz.sh && ./Rivalz.sh
 ```
